@@ -11,7 +11,7 @@ class IngestData:
         return pd.read_csv(self.data_path)
 
 @step
-def ingest_df(datapath:str) -> pd.Dataframe:
+def ingest_df(data_path:str) -> pd.DataFrame:
     
     
     try:
